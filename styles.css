@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #393e46;
+	color: white;
+}
+
+.home {
+	padding-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 30px;
+}
+
+.home img {
+	width: 400px;
+	height: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+
+.home h1{
+	padding-bottom: 50px;
+}
+
+.home p {
+	font-size: 20px;
+}
+
+.nav-links a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #00abd0;
+	transition: all ease 0.5s;
+}
+
+.nav-links a:hover{
+	color:white;
+	font-size:24px;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	font-size: 18px;
+	background-color: #00adb0;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	color:white;
+	transition: all ease 0.3s;
+}
+
+button:hover {
+	background-color: #222831;
+	color:#00adb0;
+
+}
+
+.nav-bar {
+	top:0;
+	position: sticky;
+	background-color: #222831;
+	display: flex;
+	padding-left: 24px;
+	padding-right: 24px;
+	justify-content: space-between;	
+	height: 64px;
+	align-items: center;
+
+}
+
+#Projects {
+	padding-top: 50px;
+}
+
+#Projects h2{
+	/*font-size : 30px;*/
+	text-align: center;
+	color: #B79CED;
+	margin-bottom: 10px;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	gap: 24px;
+	
+}
+
+header {
+	font-size: 36px
+}
+
+.card-holder {
+	display: flex;
+	justify-content: center;
+	
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.card {
+	background-color: #222831;
+	display: flex;
+	flex-direction: column;
+	width: 310px;
+	height: 420px;
+	margin: 50px 20px 50px 20px;
+	/*margin-left: 25px;*/
+	/*margin-right: 25px*/
+	border:1px solid;
+	padding: 25px;
+	align-items:  center;
+
+}
+
+.card img {
+	width: 300px;
+	margin: 10px;
+}
+
+.card ul {
+	list-style: circle;
+}
+
+.about {
+	display: flex;
+	border:1px solid;
+	background-color: #222831;
+	justify-content: center;
+	/*border-radius: 5px;*/
+	flex-direction: column;
+	align-items: center;
+
+	padding:100px 50px 100px 50px;
+
+}
+.about h2{
+	margin: 10px;
+}
+
+.about h3{
+	font-size: 10px;
+	margin: 5px; 
+}
+.socials-tab {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.socials-tab h2{
+	font-size: 2.5em;
+}
+
+.socials {
+	display: flex;
+	gap:40px;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px;
+	/*margin: 100px;*/
+}
+
+
+.socials a{
+	font-size: 16px;
+	text-decoration: none;
+	color: #9E90A2;
+	transition: all ease 0.5s;
+}
+
+.socials a:hover{
+	color:#FFC0CB;
+	font-size:24px;
+	/*opacity: 0.7;*/
+
+}
+	
